@@ -105,7 +105,7 @@ main {
     width: 100%;
     /* DEBUG */
     height: 750px;
-    background-color: blue;
+    background-color: #B4D0E6;
     border-style: dashed;
 }
 
@@ -121,10 +121,13 @@ main {
 
 .intestazione-jumbo{
     width: 100%;
-    height: 40%;
+    height: auto;
         /* DEBUG */
     background-color: red;
     border-style: dashed;
+}
+h1 {
+    font-size: 150px;
 }
 
 .testo-jumbo{
@@ -133,6 +136,12 @@ main {
         /* DEBUG */
     background-color: red;
     border-style: dashed;
+}
+.text-jumbo {
+    font-size: 20px;
+}
+#icona-freccia {
+    font-size: 40px;
 }
 
 .img-jumbo{
