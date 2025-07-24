@@ -196,7 +196,8 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 21px;
+    column-gap: 20px;
     padding-bottom: 50px;
     /* DEBUG */
     /* height: 200px; */
@@ -206,7 +207,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - (40px /3));
     padding: 10px;
     border-style: solid;
     border-color: grey;
@@ -217,8 +218,8 @@ main {
 .col-banner-prezzi {
     display: flex;
     flex-direction: column;
-    width: calc(100% / 3);
-    padding: 40px;
+    width: calc((100% / 3) - (40px /3));
+    padding: 35px;
     border-style: solid;
     border-color: grey;
     /* DEBUG */
@@ -243,10 +244,11 @@ li {
 }
 #pulsante-prova-gratis {
     font-size: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
     color: white;
     background-color: #0061FE;
     border-style: solid;
@@ -265,21 +267,39 @@ h4 {
 .titolo-banner-enterprise{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     padding: 10px;
-    border-style: dashed;
+    font-size: 21px;
+    border-style: solid;
+    border-color: gray;
     /* DEBUG */
     /* background-color: orange;
     border-style: dashed;
     height: 200px; */
 }
 .col-banner-enterprise{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 35px;
+    font-size: 21px;
     width: 100%;
+    border-style: solid;
+    border-color: gray;
         /* DEBUG */
-    background-color: orange;
+    /* background-color: orange;
     border-style: dashed;
-    height: 200px;
+    height: 200px; */
+}
+.testo-enterprise {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pulsante-enterprise {
+    width: 30%;
 }
 
 /* SEZIONE FOTO E TESTO */
