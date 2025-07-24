@@ -76,16 +76,9 @@ header {
     align-items: center;
     gap: 80px; 
 }
-#pulsante-accedi {
-    font-size: 25px;
-    padding: 10px;
-    background-color: white;
-    border-style: solid;
-    border-color: white;
-}
 #pulsante-inizia {
     font-size: 25px;
-    padding: 10px;
+    padding: 20px;
     color: white;
     background-color: #0061FE;
     border-style: solid;
@@ -103,53 +96,54 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    /* DEBUG */
-    height: 750px;
     background-color: #B4D0E6;
-    border-style: dashed;
+    /* DEBUG */
+    /* height: 1000px;
+    border-style: dashed; */
 }
 
 .container-jumbo{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    height: 100%;
-        /* DEBUG */
-    background-color: green;
-    border-style: dashed;
+    width: 60%;
+    /* DEBUG */
+    /* background-color: green;
+    border-style: dashed; */
 }
 
 .intestazione-jumbo{
     width: 100%;
-    height: auto;
-        /* DEBUG */
-    background-color: red;
-    border-style: dashed;
-}
-h1 {
-    font-size: 150px;
+    padding-bottom: 100px;
+    font-size: 80px;
+    /* DEBUG */
+    /* background-color: red;
+    border-style: dashed; */
 }
 
 .testo-jumbo{
-    width: 40%;
-    height: 60%;
-        /* DEBUG */
-    background-color: red;
-    border-style: dashed;
-}
-.text-jumbo {
-    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30%;
+    font-size: 24px;
+    /* DEBUG */
+    /* background-color: red;
+    border-style: dashed; */
 }
 #icona-freccia {
-    font-size: 40px;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 
-.img-jumbo{
-    width: 60%;
-    height: 60%;
-        /* DEBUG */
-    background-color: red;
-    border-style: dashed;
+.container-img-jumbo{
+    width: 70%;
+    /* DEBUG */
+    /* background-color: red;
+    border-style: dashed; */
+}
+#img-jumbo {
+    width: 100%;
 }
 
 /* SEZIONE BUSINESS */
@@ -158,7 +152,7 @@ h1 {
     justify-content: center;
     width: 100%;
     /* DEBUG */
-    height: 800px;
+    height: 100%;
     background-color: blue;
     border-style: dashed;
 }
@@ -167,7 +161,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 70%;
+    width: 50%;
     height: 100%;
         /* DEBUG */
     background-color: green;
@@ -195,18 +189,35 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    gap: 20px;
+    font-size: 24px;
     /* DEBUG */
     height: 200px;
 }
 
-.col-banner-prezzi {
-    width: calc((100% / 3) - (40px /3));
+.titolo-banner-prezzi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3);
     /* DEBUG */
     background-color: orange;
     border-style: dashed;
 }
 
+.col-banner-prezzi {
+    width: calc(100% / 3);
+    /* DEBUG */
+    background-color: orange;
+    border-style: dashed;
+}
+
+.titolo-banner-enterprise{
+    width: 100%;
+        /* DEBUG */
+    background-color: orange;
+    border-style: dashed;
+    height: 200px;
+}
 .col-banner-enterprise{
     width: 100%;
         /* DEBUG */
