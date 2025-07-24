@@ -153,8 +153,8 @@ main {
     width: 100%;
     /* DEBUG */
     height: 100%;
-    background-color: blue;
-    border-style: dashed;
+    /* background-color: blue;
+    border-style: dashed; */
 }
 
 .container-business{
@@ -163,9 +163,9 @@ main {
     justify-content: center;
     width: 50%;
     height: 100%;
-        /* DEBUG */
-    background-color: green;
-    border-style: dashed;
+    /* DEBUG */
+    /* background-color: green;
+    border-style: dashed; */
 }
 
 .intestazione-business{
@@ -199,19 +199,62 @@ main {
     justify-content: center;
     align-items: center;
     width: calc(100% / 3);
+    gap: 10px;
     padding: 10px;
+    border-style: solid;
+    border-color: grey;
     /* DEBUG */
-    background-color: orange;
-    border-style: dashed;
+    /* background-color: orange; */
 }
 
 .col-banner-prezzi {
+    display: flex;
+    flex-direction: column;
     width: calc(100% / 3);
     padding: 40px;
+    height: 100%;
+    border-style: solid;
+    border-color: grey;
     /* DEBUG */
-    background-color: orange;
-    border-style: dashed;
+    /* background-color: orange; */
 }
+h3 {
+    padding-bottom: 30px;
+}
+.prezzo {
+    padding-bottom: 10px;
+}
+.mensilità {
+    color: grey;
+    padding-bottom: 40px;
+}
+li {
+    padding-bottom: 20px;
+}
+.pulsante-griglia {
+    display: flex;
+    justify-content: center;
+}
+#pulsante-prova-gratis {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    background-color: #0061FE;
+    border-style: solid;
+    border-color: #0061FE;
+}
+.acquista {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+h4 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 
 .titolo-banner-enterprise{
     width: 100%;
