@@ -189,9 +189,9 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    font-size: 24px;
+    font-size: 20px;
     /* DEBUG */
-    height: 200px;
+    /* height: 200px; */
 }
 
 .titolo-banner-prezzi {
@@ -199,6 +199,7 @@ main {
     justify-content: center;
     align-items: center;
     width: calc(100% / 3);
+    padding: 10px;
     /* DEBUG */
     background-color: orange;
     border-style: dashed;
@@ -206,6 +207,7 @@ main {
 
 .col-banner-prezzi {
     width: calc(100% / 3);
+    padding: 40px;
     /* DEBUG */
     background-color: orange;
     border-style: dashed;
@@ -213,10 +215,10 @@ main {
 
 .titolo-banner-enterprise{
     width: 100%;
-        /* DEBUG */
+    /* DEBUG */
     background-color: orange;
     border-style: dashed;
-    height: 200px;
+    /* height: 200px; */
 }
 .col-banner-enterprise{
     width: 100%;
